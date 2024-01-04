@@ -1,0 +1,196 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{resume} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Andres}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Barreto}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth} % 30% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{9}{Ecuador}\\
+	% \icon{Phone}{9}{+1 (212) 347-5627}\\
+	\icon{At}{9}{\href{mailto:andres@andresbarreto.net}{andres@andresbarreto.net}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Globe}{9}{\href{https://andresbarreto.net/}{andresbarreto.net}}\\
+	\icon{Github}{9}{\href{https://github.com/andresebr}{github.com/andresebr}}\\
+	\icon{Linkedin}{9}{\href{https://www.linkedin.com/in/andresebr/}{linkedin.com/in/andresebr}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+% \cvsect{Who Am I?}
+
+% \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+% \end{minipage}
+% \hfill % Whitespace between
+% \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+% 	\begin{barchart}{5.5}
+% 		\baritem{JavaScript}{60}
+% 		\baritem{PHP}{100}
+% 		\baritem{SASS/LESS}{70}
+% 		\baritem{Bootstrap}{70}
+% 		\baritem{Git}{40}
+% 		\baritem{LaTeX}{60}
+% 	\end{barchart}
+% \end{minipage}
+
+% \begin{center}
+% 	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+% \end{center}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\cvsect{Technical Skills}
+
+\textbf{Programming Languages} - JavaScript\slashsep
+	TypeScript\slashsep
+	C\#\\
+	% Python\\
+\textbf{Frameworks \& Libraries} - React\slashsep
+	Next.js\slashsep
+	Node.js\slashsep
+	ASP.NET\slashsep
+	SQL Server\\
+\textbf{Tools \& Others} - Git\slashsep
+ 	Postman\slashsep
+ 	AWS\slashsep
+ 	Google Analytics\slashsep
+ 	GraphQL\\
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2023 -- Present\\\footnotesize{Ecuador}}
+		{Freelance Software Engineer}
+		{}
+		{
+			\begin{itemize}
+				\item Delivered end-to-end solutions for both local and international clients, combining technical implementation with strategic consulting to align software with business goals.
+			\end{itemize}
+		}
+	\entry
+		{2018 -- 2023\\\footnotesize{Baton Rouge, LA}}
+		{React Engineer}
+		{Acentra Health / Kepro / eQHealth Solutions}
+		{
+			\begin{itemize}
+				\item Spearheaded React development efforts for a population health management and healthcare IT solutions suite, serving 70+ federal, state, and commercial clients in the USA.
+				\item Executed the migration, optimization, and redesign of application views from ASP.NET Web Forms to React, enhancing user experience and decreasing load times by half.
+				\item Resolved 500+ high-priority vulnerabilities and accessibility problems impacting the entire application suite, eliminating critical security incidents and improving integrity and usability.
+				\item Implemented a React TypeScript admin dashboard for controlling system settings, permissions, and correspondence processing, eliminating manual tasks and halving turnaround time.
+				\item Ensured that frontend components submitted by fellow engineers complied with requirements and current standards, reducing post-launch defects and securing positive client feedback.
+			\end{itemize}
+		}
+	\entry
+		{2015 -- 2018\\\footnotesize{New Orleans, LA}}
+		{Software Developer}
+		{CivicSource}
+		{
+			\begin{itemize}
+				\item Overhauled tax management application by redesigning and migrating Razor views to React, streamlining admin work by improving usability and user experience.
+				\item Enhanced tax and foreclosure sales application by developing 100+ new features (React JavaScript \& Redux, Knockout.js, C\#, SQL Server) and automated test cases (Mocha, MSTest).
+				\item Led the design and development of a careers-centered website using Grunt, Metalsmith, and Handlebars, generating a 60\% upsurge in direct job applications.
+				\item Conducted code reviews and performed candidate interviews in support of dev team expansion.
+			\end{itemize}
+		}
+	\entry
+		{2014 -- 2015\\\footnotesize{New Orleans, LA}}
+		{Research Assistant}
+		{University of New Orleans}
+		{
+			\begin{itemize}
+				\item Engineered a forensic tool for API-based evidence acquisition from cloud storage services using Python and Flask, work published in \href{https://www.sciencedirect.com/science/article/abs/pii/S1742287616300536?via=ihub}{Elsevier's Digital Investigation Journal (Vol 18, Pages 79-95)}.
+				\item Developed a lightweight infrastructure for hands-on network security education, integrating Docker, Vagrant, and AWS.
+				\item Coached educators on core cybersecurity concepts in the NSA’s GenCyber program.
+			\end{itemize}
+		}
+	\entry
+		{2012 -- 2013\\\footnotesize{Guayaquil, Ecuador}}
+		{Webmaster II}
+		{Banco Territorial}
+		{
+			\begin{itemize}
+				\item Directed 10+ high-priority enhancements and resolved multiple bugs for a transactional system.
+				\item Established routine penetration tests on the transactional system and web applications, preemptively detecting and fixing of several security vulnerabilities.
+				\item Programmed new microservices while collaborating with cross-functional teams, ensuring seamless integration of new features into other department operations.
+			\end{itemize}
+		}
+	\entry
+		{2011 -- 2012\\\footnotesize{Guayaquil, Ecuador}}
+		{Webmaster}
+		{Dinamo Consulting}
+		{
+			\begin{itemize}
+				\item Built CMS-based web storefronts that drove digital transformation for the company clients.
+			\end{itemize}
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2015\\\footnotesize{New Orleans, LA}}
+		{Computer Science Master's Degree}
+		{University of New Orleans}
+		{
+			Research assistant (2014 -- 2015)\slashsep
+			Cybersecurity trainer (2014)
+		}
+	\entry
+		{2011\\\footnotesize{Guayaquil, Ecuador}}
+		{Computer Science Bachelor's Degree}
+		{Escuela Superior Politécnica del Litoral - ESPOL}
+		{
+			Digital media production assistant (2010 -- 2011)
+		}
+\end{entrylist}
+
+\end{document}
